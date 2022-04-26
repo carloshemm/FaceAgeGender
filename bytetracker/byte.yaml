@@ -1,0 +1,7 @@
+BYTETRACK:
+  TRACK_TRESH: 0.5 # Tracking Confidence Threshold
+  TRACK_BUFFER: 5 # Lifetime
+  MOT20: False # Test MOT20
+  MATCH_THRESH: 0.8 # Matching Threshold for Tracking
+  TEST_SIZE: 640,640
+  MIN_BOX_AREA: 10 # Filter tiny boxes
